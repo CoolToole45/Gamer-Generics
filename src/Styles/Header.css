@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: rgb(29, 28, 28);
+}
+
+.logo-image {
+    display: none;
+}
+
+.head-content {
+    color: aqua;
+    font-size: clamp(0.8rem, 1vw, 1rem);
+}
+
+.gamer-color {
+    color: #0af1c7;
+}
+
+.generics-color {
+    color: #0a6ef1;
+}
+
+
+@media (max-width: 1024px) {
+    .logo-title {
+        display: none;
+    }
+
+    .logo-image {
+        display: block;
+        max-width: 120px;
+        background-color: #fff;
+        transition: all 0.2s ease-in-out;
+
+        border-top: 15px solid rgb(63, 63, 63);
+        border-bottom: 15px solid rgb(66, 60, 60);
+        border-left: 15px solid rgb(44, 43, 43);
+        border-right: 15px solid rgb(124, 121, 121);
+    }
+
+    .logo-image:active {
+        border-top: 20px solid rgb(65, 173, 187);
+        border-bottom: 20px solid rgb(59, 201, 219);
+        border-left: 20px solid rgb(22, 146, 155);
+        border-right: 20px solid rgb(85, 232, 252);
+        outline: 1px solid yellow;
+    }
+}

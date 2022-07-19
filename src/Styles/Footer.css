@@ -1,0 +1,23 @@
+.footer-sec {
+    margin-top: 5rem;
+    padding: 3rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(29, 28, 28);
+}
+
+.footer-sec h2 {
+    font-size: 4rem;
+    color: aqua;
+}
+
+.footer-sec p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(219, 219, 219);
+}
+
+.footer-sec p a {
+    text-decoration: underline;
+    color: rgb(219, 219, 219);
+}

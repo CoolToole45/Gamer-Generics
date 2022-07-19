@@ -1,0 +1,44 @@
+.profile-control {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-control > *{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.icon-action {
+    font-size: clamp(0.9rem, 0vw, 1rem);
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-action span {
+    color: aqua;
+}
+
+.action-account a {
+    color: #fff;
+}
+
+.action-account a:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1024px) {
+    .cart-control {
+        display: none;
+    }
+
+    .icon-action {
+        display: none;
+    }
+}

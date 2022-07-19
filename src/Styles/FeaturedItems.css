@@ -1,0 +1,154 @@
+/* Global Classes */
+.new-items,
+.popular-items,
+.discounted-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 1rem;
+}
+
+.pop-item:hover > .pop-item-name,
+.disc-item:hover > .disc-item-info {
+    opacity: 1!important;
+    pointer-events: all;
+}
+
+.pop-item-name span,
+.disc-item-info span {
+    padding: 0 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pop-item-name,
+.disc-item-info {
+    position: absolute;
+    top: 80.1%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.pop-item:hover,
+.disc-item:hover {
+    border-top: 20px solid rgb(65, 173, 187);
+    border-bottom: 20px solid rgb(59, 201, 219);
+    border-left: 20px solid rgb(22, 146, 155);
+    border-right: 20px solid rgb(85, 232, 252);
+}
+
+.pop-item,
+.disc-item {
+    transition: border 0.5s ease-in-out;
+    cursor: pointer;
+    position: relative;
+}
+
+.pop-item-img,
+.disc-item-img {
+    height: 100%;
+    position: relative;
+}
+
+
+/* Featured Items */
+.featured-title {
+    display: inherit;
+    flex-direction: row;
+    margin: 3rem 0;
+}
+
+.featured-title p {
+    font-size: clamp(1rem, 2.5vw, 4rem);
+    font-weight: bold;
+    text-shadow: 2px 2px aqua;
+    transition: all 1s ease-in-out;
+}
+
+.featured-title p:hover {
+    font-size: clamp(3.2rem, 2.5vw, 4rem);
+    color: aqua;
+    text-shadow: 5px 5px black;
+}
+
+.featured-item-border {
+    border-top: 20px solid rgb(63, 63, 63);
+    border-bottom: 20px solid rgb(66, 60, 60);
+    border-left: 20px solid rgb(44, 43, 43);
+    border-right: 20px solid rgb(124, 121, 121);
+}
+
+.slider-text {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: #fff;
+    font-size: 5rem;
+    text-shadow: 2px 2px #000;
+}
+
+
+/* New Items */
+.new-item-slider-title p::before,
+.new-item-slider-title p::after {
+    content: "\2193";
+    font-size: clamp(3rem, 2vw, 5rem);
+    margin: 0 1rem;
+    position: relative;
+    top: -5px;
+}
+
+.new-item-slider {
+    position: relative;
+}
+
+
+/* Popular Items */
+.popular-items-display {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: auto;
+}
+
+.popular-items-display > * {
+    margin: 1rem 2rem;
+}
+
+.pop-item-img img {
+    width: 370px;
+    height: 100%;
+}
+
+.pop-item-name {
+    top: 84%;
+}
+
+/* Disocunted Items */
+.discounted-items {
+    position: relative;
+}
+
+.discounted-items-display {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    scrollbar-width: auto;
+}
+
+.disc-item {
+    margin: 0 3.1rem;
+    position: relative;
+}
+
+.disc-item-img img {
+    width: 500px;
+    height: 100%;
+}

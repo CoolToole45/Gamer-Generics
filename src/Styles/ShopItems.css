@@ -1,0 +1,92 @@
+.data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    border: 10px dashed black;
+    background-color: antiquewhite;
+}
+
+.shop-item-title {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px aqua;
+    transition: all 1s ease-in-out;
+}
+
+.shop-item-title:hover,
+#catalog-btn:hover {
+    font-size: 4rem;
+    color: aqua;
+    text-shadow: 5px 5px black;
+}
+
+.shop-item {
+    margin: 1rem 2rem;
+    position: relative;
+}
+
+.shop-item h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px aqua;
+}
+
+.shop-item img,
+#catalog-btn {
+    transition: border 0.5s ease-in-out;
+    cursor: pointer;
+    border-top: 20px solid rgb(63, 63, 63);
+    border-bottom: 20px solid rgb(66, 60, 60);
+    border-left: 20px solid rgb(44, 43, 43);
+    border-right: 20px solid rgb(124, 121, 121);
+}
+
+.shop-item:hover > img,
+#catalog-btn:hover {
+    border-top: 20px solid rgb(65, 173, 187);
+    border-bottom: 20px solid rgb(59, 201, 219);
+    border-left: 20px solid rgb(22, 146, 155);
+    border-right: 20px solid rgb(85, 232, 252);
+}
+
+#sold-out {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(255, 75, 4);
+    padding: 0.5rem;
+    border-radius: 10px;
+    pointer-events: none;
+    position: absolute;
+    top: 17%;
+    left: 72%;
+}
+
+.shop-item-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+.shop-item-info #price,
+#catalog-btn {
+    text-shadow: 2px 2px aqua;
+    font-size: 2rem;
+}
+
+#catalog-btn {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    margin: 1rem 30rem;
+    letter-spacing: 20px;
+    transition: all 1s ease-in-out;
+}
+
+#catalog-btn:hover {
+    background-color: #fff;
+    font-size: 3rem;
+}
