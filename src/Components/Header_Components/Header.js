@@ -1,5 +1,4 @@
 import React from "react";
-import "../../Styles/Header.css";
 import SearchBar from "./SearchBar";
 import ProfileControl from "./ProfileControl";
 import genericsLogo from "../../Img/gg-logo.png";

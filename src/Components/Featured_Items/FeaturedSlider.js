@@ -1,5 +1,4 @@
 import React from "react";
-import '../../Styles/FeaturedItems.css';
 import SimpleImageSlider from "react-simple-image-slider";
 
 

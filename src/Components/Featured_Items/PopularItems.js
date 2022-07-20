@@ -1,5 +1,4 @@
 import React from "react";
-import '../../Styles/FeaturedItems.css';
 import popItemData from "./FeaturedDB/popItemData";
 
 export default function PopularItems() {

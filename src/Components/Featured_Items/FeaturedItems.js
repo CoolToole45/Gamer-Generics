@@ -1,5 +1,4 @@
 import React from "react";
-import '../../Styles/FeaturedItems.css';
 import FeaturedSlider from "./FeaturedSlider";
 import PopularItems from "./PopularItems";
 import DiscountItems from "./DiscountItems";

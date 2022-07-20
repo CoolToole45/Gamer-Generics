@@ -1,6 +1,5 @@
 import React from "react";
 import shopItems from "../itemData";
-import '../Styles/ShopItems.css';
 
 export default function ShopItemList() {
 	return (

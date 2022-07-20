@@ -1,5 +1,4 @@
 import React from "react";
-import '../../Styles/SearchBar.css';
 import { searchCategories } from "./HeaderDB/searchCategories";
 
 export default function SearchBar() {

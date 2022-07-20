@@ -1,5 +1,4 @@
 import React from "react";
-import '../Styles/CategoryPanel.css';
 
 export default function CategoryPanel() {
     return (

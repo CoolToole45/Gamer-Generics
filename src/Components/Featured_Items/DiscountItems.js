@@ -1,5 +1,4 @@
 import React from "react";
-import '../../Styles/FeaturedItems.css';
 import discountItemData from "./FeaturedDB/discountItemData";
 
 export default function DiscountItems() {
