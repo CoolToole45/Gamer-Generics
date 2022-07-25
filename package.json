@@ -1,6 +1,5 @@
 {
   "name": "shop-app",
-  "homepage": "http://cooltoole45.github.io/shop-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

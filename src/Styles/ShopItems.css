@@ -34,6 +34,12 @@
     text-shadow: 2px 2px aqua;
 }
 
+.shop-item img {
+    background-color: #fff;
+    max-width: 500px;
+    width: 100%;
+}
+
 .shop-item img,
 #catalog-btn {
     transition: border 0.5s ease-in-out;
