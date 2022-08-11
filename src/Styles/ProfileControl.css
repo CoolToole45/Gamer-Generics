@@ -22,14 +22,20 @@
     color: aqua;
 }
 
-.action-account a {
+.action-account a,
+.cart-control a {
     color: #fff;
 }
 
-.action-account a:hover {
+.action-account a:hover,
+.cart-control a:hover {
     cursor: pointer;
     color: aqua;
     text-decoration: underline;
+}
+
+#search-toggle {
+    display: none;
 }
 
 
@@ -40,5 +46,15 @@
 
     .icon-action {
         display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    #search-toggle {
+        display: inherit;
+        border: 0.5px solid aqua;
+        border-radius: 50px;
+        width: 60px;
+        height: 60px;
     }
 }

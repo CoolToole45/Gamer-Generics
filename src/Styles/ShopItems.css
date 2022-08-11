@@ -87,7 +87,7 @@
 #catalog-btn {
     width: 100%;
     padding: 1.5rem 1rem;
-    margin: 1rem 30rem;
+    margin: 1rem 10rem;
     letter-spacing: 20px;
     transition: all 1s ease-in-out;
 }
@@ -95,4 +95,25 @@
 #catalog-btn:hover {
     background-color: #fff;
     font-size: 3rem;
+}
+
+@media (max-width: 800px) {
+    #sold-out {
+        font-size: 3.5vw;
+        top: 23%;
+        left: 65%;
+    }
+
+    .shop-item-info {
+        font-size: 1.2rem;
+    }
+
+    .shop-item-title {
+        font-size: 1.5rem;
+    }
+
+    #catalog-btn {
+        margin: 1rem 2rem;
+        letter-spacing: 4px;
+    }
 }

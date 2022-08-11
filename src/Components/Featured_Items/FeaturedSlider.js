@@ -4,9 +4,9 @@ import SimpleImageSlider from "react-simple-image-slider";
 
 const slideImages = [
     { url: "https://picsum.photos/1500/500"},
-    { url: "https://picsum.photos/1500/500"},
-    { url: "https://picsum.photos/1500/500"},
-    { url: "https://picsum.photos/1500/500"}
+    { url: "https://picsum.photos/1000/500"},
+    { url: "https://picsum.photos/1200/600"},
+    { url: "https://picsum.photos/500/200"}
 ]
 
 export default function FeaturedSlider() {

@@ -141,6 +141,7 @@
     width: 100%;
     overflow: auto;
     scrollbar-width: auto;
+    padding-bottom: 0.5rem;
 }
 
 .disc-item {
@@ -151,4 +152,23 @@
 .disc-item-img img {
     width: 500px;
     height: 100%;
+}
+
+
+
+@media (max-width: 800px) {
+    .new-items,
+    .popular-items,
+    .discounted-items {
+        margin: 0;
+    }
+
+    .new-item-slider-title p::before,
+    .new-item-slider-title p::after {
+        content: "";
+    }
+
+    .featured-title p {
+        font-size: 1rem;
+    }    
 }
