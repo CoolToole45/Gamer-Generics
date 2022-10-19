@@ -163,6 +163,10 @@
         margin: 0;
     }
 
+    .new-item-slider-title {
+        margin: 0;
+    }
+
     .new-item-slider-title p::before,
     .new-item-slider-title p::after {
         content: "";

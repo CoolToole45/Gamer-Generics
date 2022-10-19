@@ -6,11 +6,11 @@ export default function Footer() {
             <h2>Gamer Generics</h2>
             <p>Copyright © 2022 Anri, Inc.</p>
             <p>
-                <a href="#">Legal Stuff</a>
+                <a href="reload">Legal Stuff</a>
                 <span> | </span>
-                <a href="#">Privacy Policy</a>
+                <a href="reload">Privacy Policy</a>
                 <span> | </span>
-                <a href="#">Contact Us</a>
+                <a href="reload">Contact Us</a>
             </p>
         </div>
     )
